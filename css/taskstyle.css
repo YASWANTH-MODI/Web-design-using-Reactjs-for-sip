@@ -1,0 +1,10 @@
+.first{
+	border: 2px solid #ddd;
+	margin: 2px;
+	width: 400px;
+	text-align: center;
+}
+img{
+	width: 100px;
+	padding: 5px;
+}

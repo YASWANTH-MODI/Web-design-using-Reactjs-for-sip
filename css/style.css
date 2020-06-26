@@ -1,0 +1,30 @@
+#para{
+	background-color: red;
+	color: white;
+}
+.para{
+	background-color: yellow;
+	color: red;
+}
+#paragraph{
+	background-color: blue;
+	color: white;
+}
+.first,.second,.Third,.fourth{
+	border: 2px solid #ddd;
+	margin: 2px;
+	width: 400px;
+	text-align: center;
+}
+/*.first img,.second img,.Third img,.fourth img{
+	width: 200px;
+
+}*/
+img{
+	width:200px;
+	padding:10px;
+}
+.parent{
+	display: flex;
+	flex-direction: 
+}
