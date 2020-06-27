@@ -4,7 +4,23 @@
 	width: 400px;
 	text-align: center;
 }
+.second{
+	border: 2px solid #ddd;
+	margin: 2px;
+	height: 200px;
+	width: 1000px;
+}
+.Third,.fourth{
+	border: 2px solid #ddd;
+	margin: 2px;
+	width: 380px;
+}
+
 img{
 	width: 100px;
 	padding: 5px;
+}
+.parent{
+	display: flex;
+	flex-direction:
 }
