@@ -27,4 +27,27 @@ img{
 .parent{
 	display: flex;
 	flex-direction: 
+
+}
+/*media quiries for mobile view*/
+@media screen and (max-width: 425px){
+	.parent{
+		flex-direction: column;
+	}
+	.first{
+		background-color: #0A3B75;
+	}
+}
+/*tablet media quiries*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.first,.second,.Third,.fourth{
+		background-color: #ddd;
+		border-radius: 20px;
+		width: 300px;
+	}
+
 }
